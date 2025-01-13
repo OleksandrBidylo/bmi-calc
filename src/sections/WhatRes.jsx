@@ -1,11 +1,9 @@
+import photo from "../../public/images/image-man-eating.webp";
+
 const WhatRes = () => {
   return (
     <div className="grid grid-cols-2 items-center mt-16 mb-24 gap-96">
-      <img
-        className="ml-36"
-        width={564}
-        src="../../public/images/image-man-eating.webp"
-      />
+      <img className="ml-36" width={564} src={photo} />
       <div className="flex flex-col">
         <p className="text-4xl font-semibold max-w-sm mb-8 pt-32 ">
           What your BMI result means
