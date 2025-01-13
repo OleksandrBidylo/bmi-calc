@@ -1,7 +1,9 @@
+import logo from "../../public/images/logo.svg";
+
 const MainTitle = () => {
   return (
     <div className="flex flex-col mainTitle text-wrap rounded-t rounded-3xl pl-52">
-      <img className=" mt-16 w-14 h-14 " src="../../public/images/logo.svg" />
+      <img className=" mt-16 w-14 h-14 " src={logo} />
       <div className="mt-36">
         <h1 className="text-6xl font-semibold mb-9">
           Body Mass Index Calculator

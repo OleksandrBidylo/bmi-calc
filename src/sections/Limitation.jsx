@@ -1,3 +1,8 @@
+import gender from "../../public/images/icon-gender.svg";
+import birth from "../../public/images/icon-age.svg";
+import muscle from "../../public/images/icon-muscle.svg";
+import pregnancy from "../../public/images/icon-pregnancy.svg";
+import race from "../../public/images/icon-race.svg";
 const Limitation = () => {
   return (
     <div className="ml-56">
@@ -13,11 +18,7 @@ const Limitation = () => {
         </div>
         <div className="flex flex-col shadow-2xl shadow-gray-300 rounded-xl w-96 h-60 justify-center p-8">
           <div className="flex mb-4 gap-4">
-            <img
-              width={32}
-              height={32}
-              src="../../public/images/icon-gender.svg"
-            />
+            <img width={32} height={32} src={gender} />
             <p className="font-semibold text-xl">Gender</p>
           </div>
           <p className="darkBlue">
@@ -30,11 +31,7 @@ const Limitation = () => {
       <div className="flex mb-8 gap-12 gridCols">
         <div className="flex flex-col shadow-2xl shadow-gray-300 rounded-xl w-96 h-60 justify-center p-8">
           <div className="flex mb-4 gap-4">
-            <img
-              width={32}
-              height={32}
-              src="../../public/images/icon-age.svg"
-            />
+            <img width={32} height={32} src={birth} />
             <p className="font-semibold text-xl">Age</p>
           </div>
           <p className="darkBlue">
@@ -44,11 +41,7 @@ const Limitation = () => {
         </div>
         <div className="flex flex-col shadow-2xl shadow-gray-300 rounded-xl w-96 h-60 justify-center p-8">
           <div className="flex mb-4 gap-4">
-            <img
-              width={32}
-              height={32}
-              src="../../public/images/icon-muscle.svg"
-            />
+            <img width={32} height={32} src={muscle} />
             <p className="font-semibold text-xl">Muscle</p>
           </div>
           <p className="darkBlue">
@@ -60,11 +53,7 @@ const Limitation = () => {
       <div className=" flex mb-8 gap-8 flexCols">
         <div className="flex flex-col shadow-2xl shadow-gray-300 rounded-xl w-96 h-60 justify-center p-8">
           <div className="flex mb-4 gap-4">
-            <img
-              width={32}
-              height={32}
-              src="../../public/images/icon-pregnancy.svg"
-            />
+            <img width={32} height={32} src={pregnancy} />
             <p className="font-semibold text-xl">Pregnancy</p>
           </div>
           <p className="darkBlue">
@@ -75,11 +64,7 @@ const Limitation = () => {
         </div>
         <div className="flex flex-col shadow-2xl shadow-gray-300 rounded-xl w-96 h-60 justify-center p-8">
           <div className="flex mb-4 gap-4">
-            <img
-              width={32}
-              height={32}
-              src="../../public/images/icon-race.svg"
-            />
+            <img width={32} height={32} src={race} />
             <p className="font-semibold text-xl">Race</p>
           </div>
           <p className="darkBlue">
